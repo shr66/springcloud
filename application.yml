@@ -1,0 +1,17 @@
+spring: 
+  profiles:
+    active: dev
+    
+---
+spring:
+  profiles: dev
+  application:
+    name: springcloud-config-dev
+    password: dev-password
+    
+---
+spring:
+  profiles: test
+  application:
+    name: springcloud-config-test
+    password: test-password
